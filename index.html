@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMW M5 Competition</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-logo">BMW<span>.</span></div>
+    <div class="nav-links">
+      <a href="#hero">Overview</a>
+      <a href="#views">Views</a>
+      <a href="#performance">Performance</a>
+    </div>
+    <button class="nav-cta">Configure</button>
+  </nav>
+
+  <section id="hero">
+
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1200&q=80" alt="BMW M5 Side View" />
+    </div>
+
+    <div class="hero-specs">
+      <p class="eyebrow">2024 Series</p>
+      <h1>BMW <span class="red">M5</span> Competition</h1>
+      <p class="subtitle">The Pinnacle of Performance Sedans</p>
+
+      <div class="spec-grid">
+        <div class="spec-card fade-in">
+          <div class="spec-value">617 <span>hp</span></div>
+          <div class="spec-label">Max Power</div>
+        </div>
+        <div class="spec-card fade-in">
+          <div class="spec-value">3.3 <span>sec</span></div>
+          <div class="spec-label">0–100 km/h</div>
+        </div>
+        <div class="spec-card fade-in">
+          <div class="spec-value">750 <span>Nm</span></div>
+          <div class="spec-label">Peak Torque</div>
+        </div>
+        <div class="spec-card fade-in">
+          <div class="spec-value">305 <span>km/h</span></div>
+          <div class="spec-label">Top Speed</div>
+        </div>
+      </div>
+
+<div class="feature-tags">
+        <div class="tag active">M xDrive</div>
+        <div class="tag">Launch Control</div>
+        <div class="tag">Carbon Brakes</div>
+        <div class="tag">V8 TwinTurbo</div>
+        <div class="tag">Adaptive Susp.</div>
+      </div>
+
+      <div class="hero-buttons">
+        <button class="btn-primary">Book a Test Drive</button>
+        <button class="btn-outline">Explore Specs</button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="views">
+    <h2 class="fade-in">Every Angle. Every Detail.</h2>
+
+    <div class="view-tabs">
+      <button class="tab active" data-view="front">Front View</button>
+      <button class="tab" data-view="rear">Rear View</button>
+      <button class="tab" data-view="top">Top View</button>
+      <button class="tab" data-view="interior">Interior</button>
+    </div>
+
+    <div class="view-panel active" id="front">
+      <img src="images/front.jpeg" alt="BMW Front View" />
+      <div class="view-specs">
+        <h3>Front Profile</h3>
+<ul>
+  <li>
+    <span>Width</span>
+    <strong>1,903 mm</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="78"></div></div>
+  </li>
+  <li>
+    <span>Headlights</span>
+    <strong>Laser LED</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="90"></div></div>
+  </li>
+  <li>
+    <span>Grille</span>
+    <strong>Dual Kidney</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="60"></div></div>
+  </li>
+  <li>
+    <span>Bumper</span>
+    <strong>M Sport</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="85"></div></div>
+  </li>
+</ul>
+      </div>
+    </div>
+
+    <div class="view-panel" id="rear">
+     <img src="images/rear.jpeg" alt="BMW Rear View" />
+      <div class="view-specs">
+        <h3>Rear Profile</h3>
+  <ul>
+  <li>
+    <span>Tail Lights</span>
+    <strong>3D LED Cluster</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="92"></div></div>
+  </li>
+  <li>
+    <span>Exhaust</span>
+    <strong>Quad Tip</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="80"></div></div>
+  </li>
+  <li>
+    <span>Diffuser</span>
+    <strong>M Performance</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="88"></div></div>
+  </li>
+  <li>
+    <span>Spoiler</span>
+    <strong>Active Lip</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="75"></div></div>
+  </li>
+</ul>
+      </div>
+    </div>
+
+    <div class="view-panel" id="top">
+    <img src="images/top.jpeg" alt="BMW Top View" />
+      <div class="view-specs">
+        <h3>Aerial Profile</h3>
+<ul>
+  <li>
+    <span>Length</span>
+    <strong>5,060 mm</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="82"></div></div>
+  </li>
+  <li>
+    <span>Wheelbase</span>
+    <strong>2,975 mm</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="88"></div></div>
+  </li>
+  <li>
+    <span>Track Width</span>
+    <strong>1,624 mm</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="65"></div></div>
+  </li>
+  <li>
+    <span>Sunroof</span>
+    <strong>Full Pano Glass</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="95"></div></div>
+  </li>
+</ul>
+      </div>
+    </div>
+
+    <div class="view-panel" id="interior">
+    <img src="images/interior.jpeg" alt="BMW Interior" />
+      <div class="view-specs">
+        <h3>Cockpit</h3>
+<ul>
+  <li>
+    <span>Display</span>
+    <strong>BMW Curved 12.3"</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="95"></div></div>
+  </li>
+  <li>
+    <span>Seats</span>
+    <strong>M Sport Merino</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="88"></div></div>
+  </li>
+  <li>
+    <span>Sound</span>
+    <strong>Harman Kardon</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="85"></div></div>
+  </li>
+  <li>
+    <span>Drive Assist</span>
+    <strong>Level 2 Active</strong>
+    <div class="spec-bar"><div class="spec-fill" data-width="80"></div></div>
+  </li>
+</ul>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p class="footer-logo">BMW<span>.</span>M5</p>
+    <p class="footer-copy">© 2024 BMW AG · All specifications subject to market availability</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
