@@ -38,13 +38,3 @@ Views section with tab switching between Front, Rear, Top and Interior.
 Author
 Built by Varshitha K
 
-
-─────────────────────────────────────
-BMW M5 Competition — Interactive Showcase Website
-
-A dark-themed interactive car showcase website...
-
-git add README.md
-git commit -m "Add README"
-git push
-
